@@ -40,7 +40,6 @@ def Main():
 			print("3) Проверить телефон в антиспам листе.")
 			print("4) Спамер звонков (beta, RU).")
 			print("5) Обновить прокси.")
-			print("6) Обновить SPYMER.")
 			print("7) Выход.")
 			input1 = input(Fore.BLUE+"Введите номер пункта: "+Style.RESET_ALL)
 			if input1 == "1":
@@ -1379,15 +1378,6 @@ def Main():
 				except:
 					info = Fore.RED+"\nНекорректно введены данные!"+Style.RESET_ALL
 					proxy = "localhost"
-			
-			elif input1 == "6":
-				a=input("Вы уверены, что хотите обновить? (y/n) ")
-				if a=="y":
-					cmd = os.system("cd && rm -rf ~/spymer && git clone https://github.com/FSystem88/spymer && sh ~/spymer/install.sh")
-					exit()
-				else:
-					print("Отменено")
-			
 			elif input1 == "7":
 				print (Fore.BLUE+"\nДо скорой встречи!)\n"+Style.RESET_ALL)
 				exit()
