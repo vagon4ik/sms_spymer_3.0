@@ -26,10 +26,10 @@ Cмс спамер-флуд смс
 Будут вопросы - пишите в телеграм чат - https://t.me/joinchat/PMg-a0Ku-RER_4RogPNZmg<br>
 <b>Приятного пользования!</b>
 # Сот.сети разраба и помощников
-<b>Youtube канал человека который создал скрипт:bit.ly/2CouOY4</b>
-<b>Телеграм канал(новости о спамере и обновлении в нём):https://t.me/joinchat/PMg-a1UcFlsyE___0SuKiQ</b>
-<b>Youtube канал человека который рекламирует спамер:bit.ly/3151jFd</b>
-<b>GITHUB AKK РАЗРАБА:https://github.com/vagon4ik</b>
+<br>Youtube канал человека который создал скрипт:bit.ly/2CouOY4</br>
+<br>Телеграм канал(новости о спамере и обновлении в нём):https://t.me/joinchat/PMg-a1UcFlsyE___0SuKiQ</br>
+<br>Youtube канал человека который рекламирует спамер:bit.ly/3151jFd</br>
+<br>GITHUB AKK РАЗРАБА:https://github.com/vagon4ik</br>
 # Донат разрабу на дошик(если не жалко)))
-<b>Яндекс кошелёк:4100110506466557</b>
+<br>Яндекс кошелёк:4100110506466557</br>
 <br><br>
