@@ -25,4 +25,11 @@ Cмс спамер-флуд смс
 <br><br>
 Будут вопросы - пишите в телеграм чат - https://t.me/joinchat/PMg-a0Ku-RER_4RogPNZmg<br>
 <b>Приятного пользования!</b>
+# Сот.сети разраба и помощников
+<b>Youtube канал человека который создал скрипт:https://www.youtube.com/channel/UCql3lnqGQJetseLucOFGNtg/videos?view_as=subscriber</b>
+<b>Телеграм канал(новости о спамере и обновлении в нём):https://t.me/joinchat/PMg-a1UcFlsyE___0SuKiQ</b>
+<b>Youtube канал человека который рекламирует спамер:https://www.youtube.com/channel/UC2QpyGFmLWoZ9k-bVUoK3pA</b>
+<b>GITHUB AKK РАЗРАБА:https://github.com/vagon4ik</b>
+# Донат разрабу на дошик(если не жалко)))
+<b>Яндекс кошелёк:4100110506466557</b>
 <br><br>
