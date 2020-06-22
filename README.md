@@ -27,9 +27,11 @@ Cмс спамер-флуд смс
 <b>Приятного пользования!</b>
 # Сот.сети разраба и помощников
 <br>Youtube канал человека который создал скрипт:https://www.youtube.com/channel/UCql3lnqGQJetseLucOFGNtg?view_as=subscriber</br>
+<br>VK РАЗРАБА:https://vk.com/valery_onishenko</br>
 <br>Телеграм канал(новости о спамере и обновлении в нём):https://t.me/joinchat/PMg-a1UcFlsyE___0SuKiQ</br>
 <br>Youtube канал человека который рекламирует спамер:https://www.youtube.com/channel/UC2QpyGFmLWoZ9k-bVUoK3pA</br>
+<br>VK рекламодателя:https://vk.com/daniilyoutubers</br>
 <br>GITHUB AKK РАЗРАБА:https://github.com/vagon4ik</br>
 # Донат разрабу на дошик(если не жалко)))
 <br>Яндекс кошелёк:4100110506466557</br>
-<br><br>
+# Кто прочитал всю статью тот молодец!
