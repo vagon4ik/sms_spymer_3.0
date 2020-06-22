@@ -1,5 +1,5 @@
 # sms_spymer_2.0
-sms_spam
+Cмс спамер-флуд смс
  Spymer
 SMS-спамер<br>
 Только для России!<br>
