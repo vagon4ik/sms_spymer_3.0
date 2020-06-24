@@ -24,7 +24,7 @@ def Main():
 	else:
 		info = " "
 	proxy = "localhost"
-	logo = Fore.GREEN+"Author:vaon4ik,lꠋꠋ5G{sms_spymer_2.0} telegram_сhan4el:https://t.me/joinchat/PMg-a1UcFlsyE___0SuKiQ"
+	logo = Fore.GREEN+"Author:vaon4ik,lꠋꠋ5G{sms_spymer_3.0} telegram_сhan4el:https://t.me/joinchat/PMg-a1UcFlsyE___0SuKiQ"
 	def main():
 		global info                                    
 		global proxy		
