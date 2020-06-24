@@ -36,10 +36,8 @@ def Main():
 			print(info)
 			print("Proxy: "+Fore.BLUE+"{}".format(proxy)+Style.RESET_ALL)
 			print ("1) СМС спамер.")
-			print("2) Добавить телефон в антиспам лист.")
-			print("3) Проверить телефон в антиспам листе.")
-			print("4) Обновить прокси.")
-			print("5) Выход.")
+			print("2) Обновить прокси.")
+			print("3) Выход.")
 			input1 = input(Fore.BLUE+"Введите номер пункта: "+Style.RESET_ALL)
 			if input1 == "1":
 				os.system('cls' if os.name=='nt' else 'clear')
@@ -1073,54 +1071,10 @@ def Main():
 						info = Fore.RED+"\nНекорректный ввод данных!"+Style.RESET_ALL
 			
 
-
 			elif input1 == "2":
-				print ("Введите номер:")
-				phone = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
-				if phone[0] == '+':
-					phone = phone[1:]
-				if phone[0] == '8':
-					phone = '7'+phone[1:]
-				if phone[0] == '9':
-					phone = '7'+phone
-				try:
-					if int(phone):
-						id=0
-						if int(id) > 0:
-							info = Fore.GREEN+"\nPhone {} is allready in antispam list.".format(phone)+Style.RESET_ALL
-						elif int(id) == 0:
-							result=requests.post('https://fsystem88.ru/spymer/ajax.php', data={'phone': phone}).json()["result"]
-							if result == "no":
-								info = Fore.RED+"\nТелефон {} НЕ добавлен в антиспам лист.\nВо избежание DDoS подождите час с момента последнего доавления номера в антиспам.".format(phone)+Style.RESET_ALL
-							elif result == "yes":
-								info = Fore.GREEN+"\nТелефон {} добавлен в антиспам лист.".format(phone)+Style.RESET_ALL
-							elif result == "error":
-								info = Fore.RED+"Ошибка"+Style.RESET_ALL
-				except:
-					info = Fore.RED+"\nНекорректно введен телефон!".format(phone)+Style.RESET_ALL
-			
-			elif input1 == "3":
-				print ("Войдите в телефон для проверки:")
-				phone = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
-				if phone[0] == '+':
-					phone = phone[1:]
-				if phone[0] == '8':
-					phone = '7'+phone[1:]
-				if phone[0] == '9':
-					phone = '7'+phone
-				try:
-					if int(phone):
-						id=0
-						if int(id) > 0:
-							info = Fore.GREEN+"\nТелефон {} находится в антиспам листе.".format(phone)+Style.RESET_ALL
-						elif int(id) == 0:
-							info = Fore.RED+"\nТелефон {} не находится в антиспам листе.".format(phone)+Style.RESET_ALL
-				except:
-					info = Fore.RED+"\nНекорректно введен телефон!"+Style.RESET_ALL
-			elif input1 == "4":
 				try:
 					print ("Введите http(s)://IP:port proxy.")
-					print ("Пример: "+Fore.GREEN+"https://123.45.6.78:8080"+Style.RESET_ALL)
+					print ("Пример: "+Fore.GREEN+"http://139.99.105.186:80"+Style.RESET_ALL)
 					print ("Для отмены нажмите Ctrl+C")
 					proxy = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
 					if proxy[:5]=="https":
@@ -1138,7 +1092,7 @@ def Main():
 				except:
 					info = Fore.RED+"\nНекорректно введены данные!"+Style.RESET_ALL
 					proxy = "localhost"
-			elif input1 == "5":
+			elif input1 == "3":
 				print (Fore.BLUE+"\nДо скорой встречи!)\n"+Style.RESET_ALL)
 				exit()
 	main()
