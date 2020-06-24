@@ -91,7 +91,7 @@ def Main():
 														os.system('cls' if os.name=='nt' else 'clear')
 														print(logo)
 														print(info)
-														id=requests.post('https://fsystem88.ru/spymer/json.php', data={'phone': _phone}).json()["id"]
+														id=0
 														if int(id) > 0:
 															print(Fore.RED+"\nНомер телефона {} находится в антиспам листе.\nПриступаю к следующему номеру.".format(phone)+Style.RESET_ALL)
 															time.sleep(5)
@@ -432,7 +432,7 @@ def Main():
 													os.system('cls' if os.name=='nt' else 'clear')
 													print(logo)
 													print(info)
-													id=requests.post('https://fsystem88.ru/spymer/json.php', data={'phone': _phone}).json()["id"]
+													id=0
 													if int(id) > 0:
 														print(Fore.RED+"\nНомер телефона {} находится в антиспам листе.\nПриступаю к следующему номеру.".format(phone)+Style.RESET_ALL)
 														time.sleep(5)
@@ -758,7 +758,7 @@ def Main():
 										if _phone[0] == '9':
 											_phone = '7'+_phone
 										iteration = 0
-										id=requests.post('https://fsystem88.ru/spymer/json.php', data={'phone': _phone}).json()["id"]
+										id=0
 										if int(id) > 0:
 											info = Fore.RED+"\nНомер телефона находится в антиспам листе."+Style.RESET_ALL
 										elif int(id)==0:
@@ -1085,7 +1085,7 @@ def Main():
 					phone = '7'+phone
 				try:
 					if int(phone):
-						id=requests.post('https://fsystem88.ru/spymer/json.php', data={'phone': phone}).json()["id"]
+						id=0
 						if int(id) > 0:
 							info = Fore.GREEN+"\nPhone {} is allready in antispam list.".format(phone)+Style.RESET_ALL
 						elif int(id) == 0:
@@ -1110,7 +1110,7 @@ def Main():
 					phone = '7'+phone
 				try:
 					if int(phone):
-						id=requests.post('https://fsystem88.ru/spymer/json.php', data={'phone': phone}).json()["id"]
+						id=0
 						if int(id) > 0:
 							info = Fore.GREEN+"\nТелефон {} находится в антиспам листе.".format(phone)+Style.RESET_ALL
 						elif int(id) == 0:
